@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+(() => {
+    'use strict';
+
+    let sillypass = require('../index'),
+        logger = require('logger'),
+        argv = require('yargs')
+            .usage('Usage: sillypass generate [options]')
+            .example('sillypass generate', 'Generate a password')
+            .command('generate', 'Generate password')
+            .describe('n', 'The length of the password (defaults to six words)')
+            .nargs('n', 1)
+            .help('h')
+            .alias('h', 'help')
+            .argv;
+
+    if (argv._[0] === 'generate') {
+        logger.log(sillypass.getPassword(argv.n));
+    } else {
+        logger.error('Unrecognized command');
+    }
+})();
+

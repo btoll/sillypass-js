@@ -1,0 +1,27 @@
+{
+  "name": "sillypass",
+  "version": "0.1.0",
+  "description": "Create pseudo-random passwords containing mixed-case alphanumeric and random characters",
+  "bin": {
+    "diceware": "./bin/sillypass"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "password",
+    "pseudo-random",
+    "random",
+    "crypto",
+    "cryptography"
+  ],
+  "author": "Benjamin Toll <benjam72@yahoo.com> (http://www.benjamintoll.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btoll/sillypass"
+  },
+  "dependencies": {
+    "logger": "git+https://github.com/btoll/logger.git",
+    "yargs": "^3.30.0"
+  }
+}
+
