@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Create pseudo-random passwords containing mixed-case alphanumeric and random characters",
   "bin": {
-    "diceware": "./bin/sillypass"
+    "sillypass": "./bin/sillypass"
   },
   "main": "./index.js",
   "keywords": [
