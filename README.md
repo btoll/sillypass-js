@@ -1,5 +1,8 @@
 # Sillypass
 
+[![Build Status](https://travis-ci.org/btoll/sillypass.svg?branch=master)](https://travis-ci.org/btoll/sillypass)
+[![Coverage Status](https://coveralls.io/repos/github/btoll/sillypass/badge.svg?branch=master)](https://coveralls.io/github/btoll/sillypass?branch=master)
+
 ## Installation
 
 `npm install https://github.com/btoll/sillypass.git -g`
