@@ -11,7 +11,8 @@
     "coverage": "JASMINE_CONFIG_PATH=jasmine.json istanbul cover jasmine --captureExceptions",
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "lint": "eslint bin spec src",
-    "specs": "JASMINE_CONFIG_PATH=jasmine.json jasmine",
+    "specs": "JASMINE_CONFIG_PATH=jasmine.json jasmine && npm run suites",
+    "suites": "dump_describes -t spec/sillypass.js -d spec -v --html && dump_describes -t spec/sillypass.js -d spec -v --md",
     "test": "npm run clean && npm run lint && npm run specs"
   },
   "keywords": [
@@ -33,6 +34,7 @@
   },
   "devDependencies": {
     "coveralls": "^2.11.15",
+    "dump_describes": "git+https://github.com/btoll/dump_describes.git",
     "eslint": "^3.10.2",
     "istanbul": "^0.4.5",
     "jasmine-core": "^2.5.2"
