@@ -19,8 +19,8 @@
     "password",
     "pseudo-random",
     "random",
-    "crypto",
-    "cryptography"
+    "mixed-case",
+    "alpha-numeric"
   ],
   "author": "Benjamin Toll <benjam72@yahoo.com> (http://www.benjamintoll.com)",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "url": "https://github.com/btoll/sillypass"
   },
   "dependencies": {
-    "logger": "git+https://github.com/btoll/logger.git",
+    "logger": "git+https://github.com/btoll/onf-logger.git",
     "yargs": "^3.30.0"
   },
   "devDependencies": {

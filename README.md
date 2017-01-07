@@ -5,7 +5,17 @@
 
 ## Installation
 
-`npm install https://github.com/btoll/sillypass.git -g`
+`npm i sillypass`
+
+## Examples
+
+Generate a password (defaults to 12 characters):
+
+    sillypass generate
+
+Generate a password (custom length):
+
+    sillypass generate -n 20
 
 ## Usage
 
