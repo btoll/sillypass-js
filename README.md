@@ -30,7 +30,7 @@ Generate a password (custom length):
 
 ## License
 
-[MIT](LICENSE)
+[GPLv3](COPYING)
 
 ## Author
 
