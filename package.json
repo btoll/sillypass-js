@@ -1,6 +1,6 @@
 {
   "name": "sillypass",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Create pseudo-random passwords containing mixed-case alphanumeric and random characters",
   "bin": {
     "sillypass": "./bin/sillypass"
