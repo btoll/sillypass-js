@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/btoll/sillypass.svg?branch=master)](https://travis-ci.org/btoll/sillypass)
 [![Coverage Status](https://coveralls.io/repos/github/btoll/sillypass/badge.svg?branch=master)](https://coveralls.io/github/btoll/sillypass?branch=master)
+[![npm](https://img.shields.io/npm/v/sillypass.svg)](https://www.npmjs.com/package/sillypass)
 
 ## Installation
 
