@@ -29,6 +29,10 @@ Generate a password (custom length):
     -n=NUM | The length of the password (defaults to 12 characters).
     -h, --help | Display help.
 
+## Ports
+
+- [Go][golang]
+
 ## License
 
 [GPLv3](COPYING)
@@ -36,4 +40,6 @@ Generate a password (custom length):
 ## Author
 
 Benjamin Toll
+
+[golang]: https://github.com/btoll/sillypass-go
 
