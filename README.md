@@ -1,4 +1,4 @@
-# Sillypass
+# sillypass
 
 [![Build Status](https://travis-ci.org/btoll/sillypass.svg?branch=master)](https://travis-ci.org/btoll/sillypass)
 [![Coverage Status](https://coveralls.io/repos/github/btoll/sillypass/badge.svg?branch=master)](https://coveralls.io/github/btoll/sillypass?branch=master)
@@ -41,5 +41,5 @@ Generate a password (custom length):
 
 Benjamin Toll
 
-[golang]: https://github.com/btoll/sillypass-go
+[golang]: https://github.com/btoll/sillypass
 
